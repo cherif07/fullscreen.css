@@ -1,2 +1,11 @@
-# fullscreen.css
-  CSS  وضع صورة بالحجم الكامل خلفية  في الهواتف  المحمولة الذكية باستخدام
+html{
+    background: url( image url) no-repeat center center  fixed;
+    background-size:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
